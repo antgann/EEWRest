@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:catalog="http://anss.org/xmlns/catalog/0.1" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2">
+    <eventParameters publicID="quakeml:ew.anss.org/eventParameters/***eventid***/***timeinseconds***">
+        <event publicID="quakeml:ew.anss.org/event/***eventid***" catalog:datasource="ew">
+            <type>not existing</type>
+        </event>
+        <creationInfo>
+            <creationTime>2013-03-05T19:04:21.285Z</creationTime>
+        </creationInfo>
+    </eventParameters>
+</q:quakeml>

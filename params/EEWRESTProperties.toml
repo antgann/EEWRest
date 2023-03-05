@@ -1,0 +1,26 @@
+# Enable Flask debug mode.
+# DEBUG = true
+
+# SkipPDLSend=<true|talse>: When true, PDL client commands are logged and transmission via PDL will be skipped.
+SkipPDLSend = true
+
+# Java binary path
+Java = "/usr/bin/java"
+
+# EEWRest application dir path (contains top-level __init__.py)
+EEW_RESTHome = "/app/EEWRest/"
+
+# Path to PDL ProductClient.jar 
+ProductClient = "/app/ProductClient/ProductClient.jar"
+
+# Path to PDL ProductClient INI config file
+ProductClientConfig = "/app/ProductClient/config.ini"
+
+# EEWRest's log directory path (remove/comment to enable stdout logging)
+LogDir = "/app/EEWRest/logs/"
+
+# EEWRest's geojson archive directory (Defaults to ${EEW_RESTHome}/archive if undefined)
+ArchiveDir = "/app/EEWRest/archive/"
+
+# PDL RSA private key path
+SSHPrivateKey = "/app/EEWRest/.ssh/id_rsa"

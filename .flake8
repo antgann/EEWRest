@@ -1,0 +1,11 @@
+# alert_review_console project flake8 config file.
+[flake8]
+exclude =
+    .git,
+    __pycache__,
+    venv,
+    pytest_cache,
+    .coverage,
+    .vscode
+
+max_complexity = 17

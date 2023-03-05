@@ -1,0 +1,7 @@
+*.swp
+*.pyc
+*.log*
+venv
+.vscode
+.coverage
+coverage_report_html/
